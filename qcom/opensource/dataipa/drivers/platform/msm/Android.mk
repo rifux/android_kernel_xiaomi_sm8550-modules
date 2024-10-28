@@ -7,7 +7,7 @@ DLKM_DIR := $(TOP)/device/qcom/common/dlkm
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
-LOCAL_CFLAGS := -Wno-macro-redefined -Wno-unused-function -Wall -Werror
+LOCAL_CFLAGS := -Wno-macro-redefined -Wno-unused-function -Wall
 LOCAL_CLANG :=true
 
 

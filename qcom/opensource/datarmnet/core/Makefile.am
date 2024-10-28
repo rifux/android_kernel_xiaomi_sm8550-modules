@@ -10,7 +10,7 @@ CCFLAGS += -m32
 endif
 
 rmnet_core_dir	        = $(prefix)/rmnet_core
-rmnet_core_CFLAGS	= -Werror
+rmnet_core_CFLAGS	= -Wall
 
 KERNEL_FLAGS ?= ARCH=arm
 
